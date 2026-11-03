@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 570" role="img" aria-labelledby="t d">
+<title id="t">Mars landscape and rover</title><desc id="d">Illustrated red Martian landscape with mountains and a robotic rover in the foreground</desc>
+<defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#121f35"/><stop offset="1" stop-color="#8d3e2a"/></linearGradient><linearGradient id="sand" x2="0" y2="1"><stop stop-color="#a85237"/><stop offset="1" stop-color="#552b2a"/></linearGradient></defs>
+<rect width="900" height="570" fill="url(#sky)"/><circle cx="700" cy="120" r="67" fill="#e7a875" opacity=".84"/>
+<path d="M0 345 105 235 210 335 390 190 495 335 630 260 780 345 900 265V570H0Z" fill="#733f3d"/><path d="M0 415 215 330 350 380 590 292 900 418V570H0Z" fill="#aa5939"/>
+<path d="M0 495q210-68 390-35t510-48v158H0Z" fill="url(#sand)"/>
+<g fill="#be8261" opacity=".6"><ellipse cx="135" cy="506" rx="55" ry="9"/><ellipse cx="587" cy="478" rx="85" ry="15"/></g>
+<g transform="translate(360 355)" stroke="#e4d1b7" stroke-width="8" stroke-linecap="round">
+<path d="M37 48 63 5h130l38 44" fill="none"/><path d="M65 8h125v70H65z" fill="#d3c1a3" stroke="#4b4b4d"/><rect x="90" y="-8" width="38" height="20" rx="4" fill="#46576b"/><path d="M121-8v-70h-45" fill="none"/><rect x="48" y="-96" width="65" height="33" rx="5" fill="#d3c1a3" stroke="#4b4b4d"/>
+<path d="M65 70 20 113m65-42 9 42m80-42 36 42m-55-42-2 42" fill="none"/>
+<g fill="#232c33" stroke="#e5bb88" stroke-width="5"><circle cx="18" cy="115" r="22"/><circle cx="95" cy="115" r="22"/><circle cx="157" cy="115" r="22"/><circle cx="221" cy="115" r="22"/></g>
+<path d="M191 22 258 0 280 18" fill="none" stroke="#cabbaa"/><circle cx="285" cy="18" r="8" fill="#e7c48b" stroke="#4b4b4d"/>
+</g></svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" role="img" aria-labelledby="title"><title id="title">Mars rover profile illustration</title>
+<rect width="640" height="430" rx="20" fill="#8b4634"/><path d="M0 328q200-90 380-28t260-30v160H0Z" fill="#603a35"/>
+<g transform="translate(75 60)" stroke="#f0e0b8" stroke-width="9" stroke-linecap="round"><path d="M90 185h250l50-75H135Z" fill="#b9b6a2" stroke="#424c53"/><path d="M140 180V70h170V180" fill="#d3c4ad" stroke="#424c53"/>
+<path d="M220 70V0h-64" fill="none"/><rect x="110" y="0" width="80" height="45" fill="#c8baa4" stroke="#434c53"/>
+<path d="M138 182 105 260m87-75-9 75m115-75 19 75m32-75 42 75" fill="none"/>
+<g fill="#222c36" stroke="#cab598"><circle cx="96" cy="269" r="37"/><circle cx="185" cy="269" r="37"/><circle cx="315" cy="269" r="37"/><circle cx="395" cy="269" r="37"/></g>
+<path d="M330 94 441 48l35 40" fill="none"/><circle cx="476" cy="88" r="14" fill="#e8c78a" stroke="#3c4751"/>
+</g></svg>
