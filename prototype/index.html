@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="HTML5 prototype showing headings, lists, tables, links, images, and forms">
+<title>HTML Prototype | Kyler Simmons</title>
+<link rel="stylesheet" href="../assets/css/style.css">
+<style>
+.prototype { display:block;max-width:900px; }
+.prototype > section,.prototype > header { background:#fff;border:1px solid #dbe3e7;padding:22px 30px;border-radius:10px;margin:16px 0; }
+.prototype table { border-collapse:collapse;width:100%; }
+.prototype th,.prototype td { border:1px solid #c5d2d8;padding:9px;text-align:left; }
+.prototype input,.prototype select,.prototype button { max-width:100%;padding:8px; }
+.prototype label { display:block;margin-top:10px; }
+</style>
+</head>
+<body>
+<div class="course-strip"><strong>Kyler Simmons</strong><span>HTML Prototype</span><a href="../index.html#coursework">Back to homepage</a></div>
+<main class="prototype">
+<header>
+<p class="eyebrow">HTML5 Practice</p><h1>HTML Elements Prototype</h1>
+<p>Practice using semantic markup, headings, links, lists, tables, images and forms.</p>
+<nav aria-label="Section navigation"><a href="#content">Content</a> · <a href="#table">Table</a> · <a href="#media">Image</a> · <a href="#form">Form</a></nav>
+</header>
+<section id="content">
+<h2>Organizing a Webpage</h2>
+<p><abbr title="HyperText Markup Language">HTML</abbr> organizes web content. <strong>Important information</strong> can be marked up semantically, and <em>emphasis</em> can be added when needed.</p>
+<h3>Basic steps</h3><ol><li>Plan the content.</li><li>Write the HTML.</li><li>Check the document for errors.</li><li>Add CSS.</li></ol>
+<h3>Topics</h3><ul><li>Semantic elements</li><li>Links and images</li><li>Forms and tables</li></ul>
+</section>
+<section id="table"><h2>Course Topics</h2>
+<table><caption>Sample course topics</caption><thead><tr><th scope="col">Subject</th><th scope="col">Example</th></tr></thead><tbody><tr><td>HTML</td><td>Document structure</td></tr><tr><td>CSS</td><td>Appearance and layout</td></tr><tr><td>Accessibility</td><td>Descriptive markup</td></tr></tbody></table>
+</section>
+<section id="media"><h2>Image and Caption</h2>
+<figure><img src="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg" width="130" height="130" alt="HTML5 badge logo"><figcaption>HTML provides structure to webpages.</figcaption></figure>
+</section>
+<section id="form"><h2>Sample Form</h2>
+<p>This form demonstrates input markup. It does not store or send responses.</p>
+<form action="#" method="get"><fieldset><legend>Feedback</legend>
+<label for="visitor">Name</label><input id="visitor" name="visitor" type="text" placeholder="Your name">
+<label for="topic">Favorite topic</label><select id="topic" name="topic"><option value="html">HTML</option><option value="css">CSS</option><option value="accessibility">Accessibility</option></select>
+<p><button type="submit">Preview submission</button></p>
+</fieldset></form></section>
+</main>
+</body>
+</html>

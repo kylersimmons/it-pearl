@@ -1,0 +1,32 @@
+/* Positioning Lab: Exercises 1–2 use float; Exercises 3–4 use absolute positioning. */
+*{box-sizing:border-box}
+body{margin:0;background:#eee;text-align:center;font:bold 16px/24px Tahoma,Geneva,sans-serif;color:white;text-shadow:2px 2px #000}
+a{color:#00627c;text-shadow:none}
+.stage{position:relative;min-height:570px;padding-top:1px}
+h1{font-size:23px;line-height:1.3;font-weight:normal;color:#111;text-shadow:none}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+#wrapper{background:white;border:1px solid #c6c6c6}
+#navy{background:#001f3f}#teal{background:#39cccc}#blue{background:#0074d9}#aqua{background:#7fdbff}#footer{background:#666}
+.exercise-one #wrapper{width:910px;max-width:calc(100% - 36px);padding:23px;margin:46px auto 0;overflow:hidden}
+.exercise-one #wrapper>div:not(#footer){width:calc(50% - 12px);height:171px;float:left;margin-bottom:22px}
+.exercise-one #navy,.exercise-one #blue{margin-right:24px}
+.exercise-one #footer{clear:both;height:28px;line-height:28px}
+.exercise-two #wrapper{width:925px;max-width:calc(100% - 36px);padding:23px;margin:35px auto 0;overflow:hidden}
+.exercise-two #wrapper>div:not(#footer){width:calc(25% - 18px);height:173px;float:left;margin-right:24px}
+.exercise-two #wrapper #aqua{margin-right:0}
+.exercise-two #footer{clear:both;height:28px;line-height:28px}
+.exercise-three h1{margin:44px auto 0}
+.exercise-three #wrapper{width:580px;height:140px;max-width:calc(100% - 40px);margin:44px auto 0}
+.exercise-three #wrapper>div:not(#footer){width:106px;height:106px;position:absolute}
+.exercise-three #navy{top:0;left:0}.exercise-three #teal{top:0;right:0}
+.exercise-three #blue{bottom:0;left:0}.exercise-three #aqua{bottom:0;right:0}
+.exercise-three #footer{position:absolute;top:134px;left:calc(50% - 54px);width:109px;height:108px}
+.exercise-four .stage{min-height:950px}
+.exercise-four h1{margin:36px auto 0;font-size:30px}
+.exercise-four #wrapper{position:relative;width:780px;max-width:calc(100% - 40px);aspect-ratio:1;margin:58px auto 0}
+.exercise-four #wrapper>div:not(#footer){position:absolute;width:19%;height:19%}
+.exercise-four #navy{top:0;left:0}.exercise-four #teal{top:0;right:0}
+.exercise-four #blue{bottom:0;left:0}.exercise-four #aqua{bottom:0;right:0}
+.exercise-four #footer{position:absolute;width:19%;height:19%;left:50%;top:50%;transform:translate(-50%,-50%)}
+.exercise-links{padding:16px;font:normal 14px Arial,sans-serif;text-shadow:none}.exercise-links a{margin:0 8px}
+@media(max-width:640px){.exercise-one #wrapper,.exercise-two #wrapper{padding:12px}.exercise-one #wrapper>div:not(#footer){height:130px;width:calc(50% - 6px)}.exercise-one #navy,.exercise-one #blue{margin-right:12px}.exercise-two #wrapper>div:not(#footer){height:120px;width:calc(25% - 9px);margin-right:12px}.exercise-two #wrapper #aqua{margin-right:0}.exercise-three #wrapper>div:not(#footer){width:70px;height:70px}.exercise-four .stage{min-height:0;padding-bottom:35px}}
