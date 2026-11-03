@@ -1,37 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kyler Simmons</title>
-</head>
-<body>
-   <h1>Kyler Simmons was here</h1> 
-   <nav>
-    <ul>
-        <li><a href="prototype/index.html">Prototype HTML Assignment</a></li>
-    </ul>
-   </nav>
-</body>
-</html>
-
-<html lang="en">
-<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Learn about semantic HTML, accessibility, and building well-structured webpages." />
-    <meta name="author" content="Web Foundations" />
-    <title>Web Foundations: Building Meaningful Pages</title>
+    <meta name="author" content="Kyler Simmons" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Kyler Simmons | Web Technologies</title>
 </head>
 
 <body>
+    <a class="skip-link" href="#coursework">Skip to coursework</a>
+    <div class="course-strip"><strong>Kyler Simmons</strong><span>IFSC 11003 · Fall 2026</span><a href="https://thomaswallace.net/course/web-technologies/fall-2026-01/">Course schedule</a></div>
 
     <header id="home">
+        <p class="eyebrow">HTML and CSS coursework</p>
         <h1>Web Foundations: Building Meaningful Pages</h1>
+        <p class="lead">My work in semantic HTML, accessible design, CSS, and page layout.</p>
 
         <nav aria-label="Main navigation">
             <ul>
                 <li><a href="#home">Home</a></li>
+                <li><a href="#coursework">Coursework</a></li>
                 <li><a href="#html-basics">HTML Basics</a></li>
                 <li><a href="#accessibility">Accessibility</a></li>
                 <li><a href="#resources">Resources</a></li>
@@ -40,8 +30,40 @@
         </nav>
     </header>
 
+    <section id="coursework" class="coursework" aria-labelledby="coursework-heading">
+        <p class="eyebrow">Course assignments</p>
+        <h2 id="coursework-heading">Assignments and labs</h2>
+        <p>Each assignment is linked directly below. The original HTML lesson is preserved on this page.</p>
+        <div class="course-grid">
+            <article class="course-card"><span class="tag">HTML5</span><h3>HTML Prototype</h3><p>A separate practice page covering headings, lists, tables, images, and forms.</p><a href="prototype/index.html">Open prototype</a></article>
+            <article class="course-card"><span class="tag">HTML5</span><h3>Semantic HTML</h3><p>HTML structure, accessibility, semantic elements and validation.</p><a href="#html-basics">Read HTML assignment</a></article>
+            <article class="course-card"><span class="tag">CSS · Oct 19</span><h3>Positioning Lab</h3><p>Four exercises using the required float and absolute positioning methods.</p><a href="positioning-lab/index.html">See all four exercises</a></article>
+            <article class="course-card"><span class="tag tag-pending">Evidence pending</span><h3>Flexbox Froggy</h3><p>The course requires a real screenshot of level 24 completed. No screenshot has been supplied yet.</p><a href="https://flexboxfroggy.com/">Open the exercises</a></article>
+
+            <article class="course-card"><span class="tag">CSS · Demo</span><h3>CSS Demo</h3><p>External stylesheet, selectors, typography, and box model.</p><a href="css-demo/index.html">Open CSS demo</a></article>
+            <article class="course-card"><span class="tag">CSS Grid · Oct 26</span><h3>CSS Grid Layout Lab</h3><p>Four grid layouts linked in the nested list below.</p><a href="css-grid-lab/index.html">Open CSS Grid Lab</a></article>
+            <article class="course-card"><span class="tag tag-pending">Screenshot needed</span><h3>CSS Grid Garden</h3><p>Complete the grid garden exercise and upload the actual final screenshot.</p><a href="https://cssgridgarden.com/">Open Grid Garden</a></article>
+            <article class="course-card"><span class="tag tag-pending">Due Nov 16</span><h3>Mars Rovers Micro-site</h3><p>Three-page first draft built with an external stylesheet, rover history, FAQ, and accessible navigation. Due November 16.</p><a href="mars-rovers/index.html">View Mars Rovers first draft</a></article>
+        </div>
+        <section id="css-grid-lab" class="lab-list" aria-labelledby="grid-lab-heading">
+            <h3 id="grid-lab-heading">CSS Grid Layout Lab</h3>
+            <p>Required nested list with direct links to all four layouts:</p>
+            <ul>
+                <li>CSS Grid Layouts
+                    <ul>
+                        <li><a href="css-grid-lab/grid-two-col-left.html">Two Column Left Align</a></li>
+                        <li><a href="css-grid-lab/grid-two-col-right.html">Two Column Right Align</a></li>
+                        <li><a href="css-grid-lab/grid-two-col-stacked.html">Two Column Stacked</a></li>
+                        <li><a href="css-grid-lab/grid-two-col-equal.html">Two Column Equal</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <p class="course-note"><strong>Other course items:</strong> <a href="css-demo/index.html">CSS Demo</a> · <a href="https://cssgridgarden.com/">CSS Grid Garden</a> (completion screenshot required) · <a href="https://flukeout.github.io/">CSS Diner</a> (optional extra credit screenshot). The Mars Rovers micro-site first draft is linked above. Its first submission deadline is November 16, 2026.</p>
+    </section>
+
     <main>
-        <article>
+        <article class="html-article">
             <header>
                 <h2>Understanding Semantic HTML</h2>
             </header>
@@ -248,7 +270,7 @@
             </section>
         </article>
 
-        <aside id="resources">
+        <aside id="resources" class="resources">
             <h2>Recommended Resources</h2>
 
             <ul>
