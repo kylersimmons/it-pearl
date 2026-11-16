@@ -196,6 +196,16 @@ thead {
   color: #555;
   font-size: 14px;
 }
+.mission-photo {
+  margin: 18px 0 0;
+}
+.mission-photo img {
+  max-width: 100%;
+  height: auto;
+}
+.mission-photo figcaption {
+  font-size: 14px;
+}
 .faq {
   max-width: 800px;
 }
